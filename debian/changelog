@@ -1,0 +1,67 @@
+node-for-in (1.0.2-4) unstable; urgency=medium
+
+  * Team upload
+  * Update standards version to 4.6.0, no changes needed.
+  * Add "Rules-Requires-Root: no"
+  * Add debian/gbp.conf
+  * Modernize debian/watch
+  * Use dh-sequence-nodejs auto test & install
+  * Fix d/watch
+
+ -- Yadd <yadd@debian.org>  Mon, 01 Nov 2021 12:11:07 +0100
+
+node-for-in (1.0.2-3) unstable; urgency=medium
+
+  * Bump debhelper from old 12 to 13.
+    + Drop check for DEB_BUILD_OPTIONS containing "nocheck", since debhelper now
+      does this.
+  * Update standards version to 4.5.1, no changes needed.
+
+ -- Debian Janitor <janitor@jelmer.uk>  Wed, 15 Sep 2021 10:21:53 +0100
+
+node-for-in (1.0.2-2) unstable; urgency=medium
+
+  * Bump debhelper from old 11 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Remove obsolete fields Contact, Name from debian/upstream/metadata
+    (already present in machine-readable debian/copyright).
+  * Update standards version to 4.4.1, no changes needed.
+  * Apply multi-arch hints.
+    + node-for-in: Add Multi-Arch: foreign.
+  * Update standards version to 4.5.0, no changes needed.
+  * Replace use of deprecated $ADTTMP with $AUTOPKGTEST_TMP.
+
+ -- Debian Janitor <janitor@jelmer.uk>  Sat, 28 Aug 2021 23:41:17 +0100
+
+node-for-in (1.0.2-1) unstable; urgency=medium
+
+  [ Utkarsh Gupta ]
+  * Team upload
+  * New upstream version 1.0.2
+  * Bump Standards-Version to 4.3.0 (no changes needed)
+  * Bump debhelper compatibility level to 11
+  * Add upstream test in autopkgtest
+  * Add d/upstream/metadata
+  * Update URL in Vcs-* field
+  * Update d/copyright
+  * Update d/rules
+
+  [ Xavier Guimard ]
+  * Update debian/copyright
+
+ -- Utkarsh Gupta <guptautkarsh2102@gmail.com>  Mon, 21 Jan 2019 03:17:56 +0530
+
+node-for-in (0.1.6-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream release
+  * Fix watch file
+  * Enable tests
+
+ -- Pirate Praveen <praveen@debian.org>  Thu, 27 Oct 2016 20:02:36 +0530
+
+node-for-in (0.1.4-1) unstable; urgency=medium
+
+  * Initial release
+
+ -- Thorsten Alteholz <debian@alteholz.de>  Sat, 05 Mar 2016 11:48:45 +0100
